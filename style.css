@@ -305,12 +305,16 @@ width: 50%;
   z-index: 1; 
 }
 
+.women_cat {
+    padding: 60px 0 50px 36px;
+}
 .women_cat div {
     width: 340px;
     height: 100%;
     display: flex;
     flex-direction: column;
     margin-right: 50%;
+
 }
 
 .women_cat div span:nth-child(1) {
@@ -323,8 +327,8 @@ width: 50%;
     line-height: 29px;
     letter-spacing: 0.03em;
     color: #000000;
-    padding: 60px 558px 25px 36px;
     z-index: 5; 
+    margin-bottom: 29px;
 }
 
 .women_cat div span:nth-child(2) {
@@ -333,7 +337,7 @@ width: 50%;
     font-weight: 300;
     font-size: 16px;
     color: #000000;
-    padding: 25px 87px 40px 36px;
+    margin-bottom: 40px;
 }
 
 .women_cat div button {
@@ -343,7 +347,8 @@ width: 50%;
     background: #D7B399;
     color: white;
     cursor: pointer;
-    margin-left: 35px; 
+    font-size: 20px;
+    line-height: 20px;
 }
 
 .women_cat img {
@@ -356,3 +361,40 @@ width: 50%;
 .women_cat_coll {
     font-weight: 400 !important;
 }
+
+.catalog {
+    width: 100%;
+    height: 472px;
+}
+
+.catalog_wrap {
+    width: 1108px;
+    height: 472px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.catalog_wrap div {
+    width: 277px;
+    height: 236px;
+    padding: 180px 0 0 30px;
+}
+
+.catalog_wrap div span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 21px;
+    line-height: 26px;  
+    letter-spacing: 0.03em;
+}
+
+.even {
+    background-image: url(./img/T-shirt1.png);
+}
+
+.odd {
+    background-image: url(./img/T-shirt2.png);
+}
+
