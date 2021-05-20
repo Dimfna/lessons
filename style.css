@@ -1,0 +1,358 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.conteiner {
+    width: 1920px;
+    margin: 0 auto; /* хак для выставления блочных элементов по центру*/ 
+}
+
+.promo {
+    width: 100%;
+    min-height: 800px;
+    background-color: #F9F6F1;
+    padding: 50px 405px 70px 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 160px;
+}
+
+.nav_menu {
+    width: 373px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_menu a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    text-decoration: none;
+}
+
+.logo_block {
+    width: 211px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.pay_block {
+    width: 163px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.pay_block a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    text-decoration: none;  
+}
+
+.cart_block {
+    width: 91px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.counter {
+    width: 33px;
+    height: 15px;
+    background:#D7B399;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.counter::before {
+    content: "";
+    width: 17px;
+    height: 17px;
+    background: no-repeat url(./img/Polygon.svg);
+    position: absolute;
+    top: 0;
+    left: -13.49px;
+}
+
+.promo_block {
+    display: flex;
+    width: 100%;
+    height: 377px;
+}
+
+.promo_offer {
+display: flex;
+flex-direction: column;
+width: 50%;
+}
+
+.promo_offer span:nth-child(1) {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+    color: #000;
+    margin-bottom: 37px;
+
+}
+
+.promo_offer span:nth-child(2) {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 67px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    margin-bottom: 55px;
+}
+
+.promo_offer button {
+    width: 240px;
+    height: 55px;
+    background: #D7B399;
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    cursor: pointer;
+    /* transition: all 0.3s; */
+}
+
+/* .promo_offer button:hover {
+    background:red;
+    width: 480px;
+    height: 110px; */
+/* } */
+
+.promo_price {
+    width: 50%;
+    position: relative;
+}
+
+.promo_price span:nth-child(2) {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    text-decoration-line: line-through;
+    color: #000000;
+    position: absolute;
+    top: 40px;
+    right: 0;  
+}
+
+.promo_price span:nth-child(3) {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 51px;
+    letter-spacing: 0.02em;
+    color: #D84033;
+    position: absolute; 
+    top: 83px;
+    right: 0;
+}
+
+.promo_footer {
+    width: 100%;
+    height: 235px;
+    background: #212121;
+    padding: 80px 667px 69px;
+    text-align: center;
+}
+
+.promo_footer span:nth-child(1) {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 23px;
+}
+
+.promo_footer span:nth-child(2) {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 23px;
+    display: block;
+    opacity: 0.8;
+}
+
+.promo_footer_price {
+    font-weight: 400 !important;
+}
+
+.clothes_cat {
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+
+.men_cat {
+    width: 50%;
+    height: 100%;
+    background: #F9F6F1;
+    padding: 60px 0 0 0; 
+    position: relative; 
+}
+
+.women_cat {
+    width: 50%;
+    height: 100%;
+    background: #F4F4F4;
+    position: relative;
+}
+
+.men_cat div {
+    width: 340px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50%;
+}
+
+.men_cat div span:nth-child(1) {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    margin-bottom: 25px;
+    z-index: 5; 
+}
+
+.men_cat div span:nth-child(2) {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.men_cat_coll {
+    font-weight: 400 !important
+}
+
+.men_cat div button {
+    width: 80px;
+    height: 30px;
+    border: none;
+    background: #D7B399;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.men_cat img {
+  position: absolute;
+  bottom: 0; 
+  right: 15px;
+  z-index: 1; 
+}
+
+.women_cat div {
+    width: 340px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50%;
+}
+
+.women_cat div span:nth-child(1) {
+    width: 1550px;
+    height: 22px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    padding: 60px 558px 25px 36px;
+    z-index: 5; 
+}
+
+.women_cat div span:nth-child(2) {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000000;
+    padding: 25px 87px 40px 36px;
+}
+
+.women_cat div button {
+    width: 80px;
+    height: 30px;
+    border: none;
+    background: #D7B399;
+    color: white;
+    cursor: pointer;
+    margin-left: 35px; 
+}
+
+.women_cat img {
+    position: absolute;
+    bottom: 0;
+    left: 352px;
+    z-index: 1;
+}
+
+.women_cat_coll {
+    font-weight: 400 !important;
+}
