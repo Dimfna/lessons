@@ -476,7 +476,7 @@ width: 50%;
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.03em;
-    color: #FFFFFF;  
+    color: #FFFFFF; 
 }
 
 .sales_and_gifts {
@@ -526,6 +526,20 @@ button {
     color: #FFFFFF;
     background: #D7B399;
     margin: 70px 405px 70px 35px;
-}
+}  
 
+.sales_up {
+    width: 344px;
+    height: 44px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #212121;
+    margin-left: 778px;
+    margin-bottom: 103px;
+}
 
