@@ -420,7 +420,7 @@ width: 50%;
 }
 
 .dresses {
-  height: 350px;
+    height: 350px;
     width: 1110px;
     margin: 0 auto;
     display: flex;
@@ -479,6 +479,53 @@ width: 50%;
     color: #FFFFFF;  
 }
 
+.sales_and_gifts {
+    width: 1920px;
+    height: 180px;
+    background: #212121;
+    display: flex;
+}
 
+.sales {
+    width: 575px;
+    height: 37px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin: 75px 0 71px 405px;   
+}
+
+.email {
+    width: 255px;
+    height: 40px;
+    background: #F9F6F1;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: #8D8D8D;
+    margin: 70px 0 70px 60px;
+}
+
+button {
+    width: 185px;
+    height: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #D7B399;
+    margin: 70px 405px 70px 35px;
+}
 
 
